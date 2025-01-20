@@ -1,0 +1,43 @@
+<!--lecture 1 html homework-->
+
+1. What happens when we close an empty tag?
+
+   Closing an empty tag in HTML is invalid. Empty tags, also known as void elements, are self-sufficient elements that don't have a closing tag. They're used for elements that don't need to enclose content, like images, line breaks, and horizontal rules. 
+
+
+2. "All html elements have attributes" does this statement have any exception?
+
+    Yes, the statement "All HTML elements have attributes" does have exceptions. Some HTML elements may not explicitly have attributes, although technically, every HTML element can have attributes if they are defined. Here are some clarifications:
+
+    1. Empty Elements Without Attributes
+    Elements like <br>, <hr>, and <wbr> are examples of empty elements. While these elements don't inherently require attributes, they can still have optional attributes (e.g., <br class="break">).
+
+    2. Implicit Attributes
+    Even if an element does not explicitly specify attributes in the markup, it may still have default attributes applied by the browser. For instance:
+
+    A <form> element has a default method attribute of GET, even if it’s not specified in the HTML.
+    3. Custom or Data Attributes
+    Attributes like id, class, and style can be added to any element, even if they don’t have a defined purpose. For example:
+
+    html
+    Copy code
+    <div></div>
+    This <div> element does not explicitly have attributes, but you can add attributes like id="container".
+
+    4. Text Content as an Exception
+    Text nodes themselves (e.g., plain text within an element) are not HTML elements, so they don’t have attributes:
+
+    html
+    Copy code
+    <p>This is a text node.</p>
+    5. Doctype Declaration
+    The <!DOCTYPE> declaration is not an HTML element, so it does not have attributes.
+
+    Final Thoughts
+    While technically, all HTML elements can have attributes, some elements might not always require or explicitly specify them. If you need absolute precision, consider this more nuanced phrasing:
+    "All HTML elements can have attributes, but not all HTML elements are required to explicitly define them."
+    
+
+3.  Study about description tag
+    
+    Done in list4.html file
